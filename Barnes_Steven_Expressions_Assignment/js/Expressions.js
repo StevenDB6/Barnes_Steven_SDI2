@@ -53,12 +53,13 @@ console.log (luggageWeight);
 totalWeight = Number(planeWeight) - Number(luggageWeight);
 
 //Alert user the the total weight of the plane
-alert(name+" the plane weighs " +totalWeight+" pounds.");
+alert(name+" the plane now weighs " +totalWeight+" pounds.");
 console.log (totalWeight);
 
 /*
 I was able to calulate the weight of the plane whichn I chose
 to be 5000 pounds.Then added the weight of the luggage which I chose to be 467 pounds and
-the total weight came out to be 5467 pounds.
+the total weight came out to be 5467 pounds. I was also able to subtract 467 pounds from 5467 pounds and get the orignal weight
+of the plane which was 5000 pounds.
  */
 
