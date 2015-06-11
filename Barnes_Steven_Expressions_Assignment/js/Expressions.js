@@ -52,7 +52,9 @@ console.log (luggageWeight);
 
 totalWeight = Number(planeWeight) - Number(luggageWeight);
 
-//Alert user the the 
+//Alert user the the total weight of the plane
+alert(name+" the plane weighs " +totalWeight+" pounds.");
+console.log (totalWeight);
 
 /*
 I was able to calulate the weight of the plane whichn I chose
