@@ -8,4 +8,13 @@
  // Test to see if connected
  console.log("Test");
 
- 
+ // Create a calculator that keeps track of cupcake flavors
+
+ // Create an array
+ var cupcakeTray =["strawberry","blueberry","chocolate","vanilla"];
+
+ // print out the array
+ console.log(cupcakeTray);
+
+
+
