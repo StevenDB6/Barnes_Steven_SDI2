@@ -8,8 +8,8 @@
  // Test to see if connected
  console.log("Test");
 
- // Create an array
- var evenNumbers = ["two", " four", "six", "eight", "ten", "twelve"]
+ //create a conditional
 
- // see whole array
- console.log(evenNumbers);
+ // Ask the user to pick a random number
+ var randomNumber = prompt(" Pick a number between 1 and 10")
+ console.log (randomNumber)
