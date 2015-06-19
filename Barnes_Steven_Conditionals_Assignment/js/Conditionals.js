@@ -31,5 +31,22 @@
  } else{
   console.log( evenNumber+ " is not greater then " +oddNumber);
  }
+/*
+I created a conditonal using any numbers between 1 and 20 odd or even to tell if they
+are greater than or less than each other.
+ */
 
- 
+// Ask user what does X equal
+ var X = prompt (" X equals?");
+
+ // Ask user what does Y equal
+ var Y = prompt(" Y equals?");
+
+ //Create a logical operator
+
+var XY =prompt(X < Y && Y > X);
+
+/*
+I was able to use any two numbers from the first code and place them in my logic to have
+either a true or false statement.
+ */
