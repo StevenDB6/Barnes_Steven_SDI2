@@ -33,10 +33,21 @@ while(rectangleWidth==="" || isNaN(rectangleWidth)){
 //Create a function
 function rectangle(length, width){
 
-    var roundNumber = Math.round(length*width);
+    var roundNumber = Math.round(length * width);
 console.log(roundNumber);
 }
 
 
 //return the value to the main code
 rectangle(rectangleLength, rectangleWidth);
+
+
+// create a anon function
+var multiNum = function( numlength, numwidth){
+    var total = Number(numlength)*Number(numwidth);
+    return total;
+};
+
+//Function call
+var totalReturned = multiNum(13,7);
+console.log(totalReturned+" is the area");
