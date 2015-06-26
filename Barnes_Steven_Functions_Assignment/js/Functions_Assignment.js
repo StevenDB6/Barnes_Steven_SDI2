@@ -8,9 +8,9 @@
 // Testing to see if connected
 console.log("Test");
 
-// Create a file that will find the perimeter of a rectangle
+// Create a file that will find the area of a rectangle
 
-var rectanglePerimeter= prompt(" Lets find the perimeter of a rectangle.");
+var rectangleArea= prompt(" Lets find the area of a rectangle.");
 
 // Ask user what is the length of the rectangle
 var rectangleLength= prompt(" What is the length?")
@@ -30,3 +30,13 @@ while(rectangleWidth==="" || isNaN(rectangleWidth)){
         " What is the width?")
 }
 
+//Create a function
+function rectangle(length, width){
+
+    var roundNumber = Math.round(length*width);
+console.log(roundNumber);
+}
+
+
+//return the value to the main code
+rectangle(rectangleLength, rectangleWidth);
